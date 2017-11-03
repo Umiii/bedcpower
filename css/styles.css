@@ -1,0 +1,59 @@
+/*
+*   Styles for bedc clone
+*   created by Umi Ikem - 3/11/2017
+*/
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+    font-family: 'Raleway', serif;
+    letter-spacing: 1px;
+    color:#121212;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/*************************
+***** General Styles *****
+**************************/
+
+:focus {
+    outline:none !important;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition:all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    -o-transition:all 500ms ease-out;
+    transition:all 500ms ease-out;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+/*************************
+*** Structural Styles ****
+**************************/
+
+ul
+{
+    padding:0;
+}
+
+ul li
+{
+    list-style:none;
+}
+
+
+/*************************
+***     Top Section   ****
+**************************/
