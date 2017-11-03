@@ -16,6 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
+    color:#bd252b;
 }
 
 /*************************
@@ -57,3 +58,69 @@ ul li
 /*************************
 ***     Top Section   ****
 **************************/
+header
+{
+    background-color: rgba(235,235,235,0.9);
+}
+
+.logo-container
+{
+    display:flex;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************
+**** Table  Section   ****
+**************************/
+.table-container
+{
+    padding:2rem 0;
+
+}
+
+.disconnection-table
+{
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disconnection-table .table
+{
+    width:auto;
+    color:#121212;
+}
+
+table th:first-child{
+    border-radius:10px 0 0 0;
+}
+
+table th:last-child{
+    border-radius:0 10px 0 0;
+}
+
+.table td:last-of-type
+{
+    color:#bd252b;
+}
+
+.disconnection-table .thead
+{
+    background-color: #bd252b;
+    color:white;
+}
+
+.disconnection-table .fa-circle
+{
+    color: #bd252b;
+}
+
+img.flash
+{
+    max-width:15px;
+    max-height:15px;
+    margin-right:0.4rem;
+}
