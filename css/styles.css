@@ -54,7 +54,11 @@ ul li
     list-style:none;
 }
 
-
+table
+{
+    border-top: 0;
+    border-bottom:1px solid #eee;
+}
 /*************************
 ***     Top Section   ****
 **************************/
