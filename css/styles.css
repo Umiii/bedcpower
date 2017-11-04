@@ -113,6 +113,9 @@ table th:last-child{
     color:white;
 }
 
+
+
+.state-list .fa-arrow-circle-right,
 .disconnection-table .fa-circle
 {
     color: #bd252b;
@@ -122,5 +125,81 @@ img.flash
 {
     max-width:15px;
     max-height:15px;
+    margin-right:0.4rem;
+}
+
+/*************************
+**  State List Section  **
+**************************/
+.list-container
+{
+    background: linear-gradient(135deg, rgba(142,158,171,0.3) 0%,
+    rgba(171,183,193,0.3) 51%,
+    rgba(206,214,219,0.3) 71%,
+    rgba(237,241,242,0.3) 100%);
+    padding:1.5rem;
+}
+
+.state-list
+{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.state-list .fa-arrow-circle-right
+{
+    margin-right:0.5rem;
+}
+
+.state-list ul
+{
+    margin-top:1rem;
+}
+
+.state-list ul li {
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+
+/*************************
+****   Footer Section  ***
+**************************/
+
+footer
+{
+    background: linear-gradient(135deg, rgba(240,0,0,1) 0%,
+    rgba(232,16,13,1) 51%, rgba(225,30,23,1) 71%,
+    rgba(220,39,29,1) 100%);
+    color:white;
+    padding:1rem;
+}
+
+footer h3
+{
+    color:white;
+    margin-bottom:1rem;
+}
+
+
+.footer-icons
+{
+    max-width:20px;
+    max-height:20px;
+}
+
+.footer-content
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content ul li
+{
+    display:inline;
     margin-right:0.4rem;
 }
