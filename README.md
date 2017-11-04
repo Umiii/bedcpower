@@ -1,2 +1,2 @@
 # bedcpower
-Dummy Home Page for BEDC Ltd
+Dummy Disconnected customer page for BEDC Ltd
